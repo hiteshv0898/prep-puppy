@@ -1,0 +1,54 @@
+data-engineer:
+  lessons:
+    - Python basics for data
+    - SQL fundamentals
+    - Data modeling basics
+    - ETL vs ELT concepts
+    - Airflow basics
+    - Distributed systems intro
+    - MLOps essentials
+    - LLM engineering overview
+    - Data visualization basics
+    - Statistics + probability basics
+  drills:
+    - SQL SELECT + JOIN drills
+    - Window functions practice
+    - Pipeline design drills
+    - Data quality checks
+  mocks:
+    - Data engineering mock interview
+
+ai-engineer:
+  lessons:
+    - Python basics for ML
+    - Math for ML (linear algebra + calculus)
+    - Probability foundations
+    - ML fundamentals
+    - Feature engineering basics
+    - Model deployment overview
+    - MLOps essentials
+    - LLM engineering overview
+    - Data pipeline essentials
+    - Data visualization basics
+  drills:
+    - ML system design prompts
+    - Model evaluation drills
+    - SQL analytics drills
+  mocks:
+    - AI engineering mock interview
+
+data-scientist:
+  lessons:
+    - Python basics for data
+    - Statistics foundations
+    - Probability + distributions
+    - Experiment design
+    - SQL analytics
+    - ML fundamentals
+    - Data visualization basics
+  drills:
+    - A/B testing drills
+    - SQL aggregation drills
+    - Hypothesis testing drills
+  mocks:
+    - Data science mock interview

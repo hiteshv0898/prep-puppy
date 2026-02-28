@@ -1,0 +1,8 @@
+[project]
+name = "prep-puppy"
+version = "0.1.0"
+description = "Learning-first interview prep CLI for data/AI engineering roles."
+requires-python = ">=3.10"
+
+[project.scripts]
+prep-puppy = "preppuppy.cli.app:main"
