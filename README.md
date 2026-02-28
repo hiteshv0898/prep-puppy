@@ -6,7 +6,7 @@ Learning-first interview prep CLI for data/AI engineering roles.
 - Teach fundamentals from basics to FAANG-level depth.
 - Offer lessons, drills, and mock interview simulations.
 - Support Data Engineer, AI Engineer, and Data Scientist tracks.
-- Domains: SQL, system design, distributed systems, MLOps, LLM engineering,
+- Domains: SQL, Spark, system design, distributed systems, MLOps, LLM engineering,
   stats/probability, math for ML, Python basics, data viz, behavioral.
 
 ## Quick start
@@ -19,7 +19,7 @@ python -m preppuppy.cli.app --track data-engineer --mode learn --domain sql --le
 ```
 
 ## Modes
-- **learn**: guided lessons + hints
+- **learn**: guided lesson + quiz + drills
 - **drill**: practice questions + feedback
 - **mock**: timed interview simulation
 

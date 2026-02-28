@@ -1,6 +1,7 @@
 from preppuppy.content.loader import load_drills
 
 
-def run_drill(domain: str) -> list[str]:
+def run_drill(domain: str, limit: int = 3) -> list[str]:
     drills = load_drills()
-    return drills.get(domain, ["No drills yet."])
+    selected = drills.get(domain, ["No drills yet."])
+    return selected[:limit]

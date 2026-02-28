@@ -5,6 +5,23 @@ python-basics:
 sql:
   - "Write a query to get top 3 earners per department."
   - "Explain the difference between WHERE and HAVING."
+  - "Fix a query that returns duplicate rows after a JOIN."
+
+spark:
+  - "Explain when to cache a DataFrame."
+  - "What causes a shuffle?"
+
+data-eng:
+  - "Design a batch pipeline for daily sales reporting."
+  - "List 3 data quality checks you would add."
+
+ml-fundamentals:
+  - "Explain precision vs recall with an example."
+  - "How would you detect overfitting?"
+
+experiments:
+  - "Define primary and guardrail metrics for an A/B test."
+  - "What is sample ratio mismatch?"
 
 stats:
   - "Given a mean and std dev, compute a z-score."

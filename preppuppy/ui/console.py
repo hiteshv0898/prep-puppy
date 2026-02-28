@@ -30,6 +30,18 @@ def show_drill(prompts: list[str]) -> None:
     console.print(Panel(bullets, title="DRILL"))
 
 
+def show_quiz(items: list[dict]) -> None:
+    if not items:
+        console.print(Panel("No quiz items yet.", title="QUIZ"))
+        return
+    lines = []
+    for idx, item in enumerate(items, start=1):
+        question = item.get("question", "")
+        answer = item.get("answer", "")
+        lines.append(f"{idx}. {question}\n   Answer: {answer}")
+    console.print(Panel("\n".join(lines), title="QUIZ"))
+
+
 def show_mock(scenarios: list[str]) -> None:
     bullets = "\n".join(f"- {line}" for line in scenarios)
     console.print(Panel(bullets, title="MOCK"))

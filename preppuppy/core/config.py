@@ -50,6 +50,7 @@ def _domains_for_track(track: str) -> list[str]:
             "data-viz",
             "data-eng",
             "sql",
+            "spark",
             "system-design",
             "distributed-systems",
             "behavioral",
@@ -64,11 +65,13 @@ def _domains_for_track(track: str) -> list[str]:
             "ml-fundamentals",
             "data-viz",
             "sql",
+            "spark",
             "behavioral",
         ]
     return [
         "python-basics",
         "sql",
+        "spark",
         "data-eng",
         "system-design",
         "distributed-systems",

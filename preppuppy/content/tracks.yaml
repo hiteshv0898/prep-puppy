@@ -2,6 +2,7 @@ data-engineer:
   lessons:
     - Python basics for data
     - SQL fundamentals
+    - Spark basics
     - Data modeling basics
     - ETL vs ELT concepts
     - Airflow basics
@@ -13,6 +14,7 @@ data-engineer:
   drills:
     - SQL SELECT + JOIN drills
     - Window functions practice
+    - Spark shuffles and caching drills
     - Pipeline design drills
     - Data quality checks
   mocks:

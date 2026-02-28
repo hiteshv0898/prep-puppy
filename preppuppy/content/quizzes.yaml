@@ -1,0 +1,33 @@
+python-basics:
+  - question: "What is the time complexity of searching in a Python set?"
+    answer: "Average O(1)"
+  - question: "Name two mutable Python types."
+    answer: "list, dict, set"
+
+sql:
+  - question: "When do you use HAVING instead of WHERE?"
+    answer: "To filter aggregated results after GROUP BY"
+  - question: "What does LEFT JOIN return?"
+    answer: "All left rows and matching right rows, NULL for non-matches"
+
+spark:
+  - question: "What operation triggers a shuffle?"
+    answer: "Wide transformations like groupBy/join"
+  - question: "Why cache a DataFrame?"
+    answer: "To avoid recomputation of expensive transformations"
+
+stats:
+  - question: "What does a 95% confidence interval mean?"
+    answer: "95% of such intervals contain the true parameter"
+
+probability:
+  - question: "Define conditional probability."
+    answer: "P(A|B) = P(A∩B) / P(B)"
+
+ml-fundamentals:
+  - question: "What is overfitting?"
+    answer: "Model fits noise and generalizes poorly"
+
+behavioral:
+  - question: "What does STAR stand for?"
+    answer: "Situation, Task, Action, Result"

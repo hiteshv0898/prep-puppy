@@ -11,6 +11,35 @@ sql:
     - SELECT, WHERE, JOIN
     - GROUP BY + aggregations
     - Window functions basics
+    - Common pitfalls (NULLs, duplicates)
+
+spark:
+  title: Apache Spark basics
+  bullets:
+    - RDD vs DataFrame vs Dataset
+    - Spark SQL vs PySpark
+    - Shuffles, partitions, and caching
+
+data-eng:
+  title: Data engineering basics
+  bullets:
+    - Data lakes vs warehouses
+    - Batch vs streaming pipelines
+    - Data quality checks
+
+ml-fundamentals:
+  title: ML fundamentals
+  bullets:
+    - Supervised vs unsupervised
+    - Overfitting and regularization
+    - Model evaluation metrics
+
+experiments:
+  title: Experimentation basics
+  bullets:
+    - A/B test setup
+    - Metrics and guardrails
+    - Statistical significance
 
 stats:
   title: Statistics fundamentals

@@ -18,3 +18,7 @@ def load_drills() -> dict:
 
 def load_mocks() -> dict:
     return load_yaml("mocks")
+
+
+def load_quizzes() -> dict:
+    return load_yaml("quizzes")
