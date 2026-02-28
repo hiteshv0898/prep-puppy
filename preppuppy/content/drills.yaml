@@ -1,0 +1,43 @@
+python-basics:
+  - "Write a function to find the first non-repeating character in a string."
+  - "Explain list vs set performance trade-offs."
+
+sql:
+  - "Write a query to get top 3 earners per department."
+  - "Explain the difference between WHERE and HAVING."
+
+stats:
+  - "Given a mean and std dev, compute a z-score."
+  - "What does a 95% confidence interval mean?"
+
+probability:
+  - "Compute P(A|B) from P(A), P(B), P(A∩B)."
+  - "Explain independence vs mutual exclusivity."
+
+math-for-ml:
+  - "Derive gradient of MSE loss for linear regression."
+  - "Why does normalization help gradient descent?"
+
+data-viz:
+  - "Pick a chart for time series vs categories."
+  - "List 3 common data viz mistakes."
+
+system-design:
+  - "Design a URL shortener at scale."
+  - "Design a log ingestion pipeline."
+
+distributed-systems:
+  - "Explain CAP with a practical example."
+  - "What is eventual consistency?"
+
+mlops:
+  - "Outline a model retraining pipeline."
+  - "What metrics detect model drift?"
+
+llm-engineering:
+  - "Explain RAG and when to use it."
+  - "How would you evaluate an LLM response?"
+
+behavioral:
+  - "Tell me about a conflict you resolved using STAR."
+  - "Describe a time you improved a broken process."

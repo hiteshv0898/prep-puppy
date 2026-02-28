@@ -1,0 +1,76 @@
+python-basics:
+  title: Python basics for interviews
+  bullets:
+    - Variables, types, and control flow
+    - Functions, list/dict/set comprehensions
+    - Big-O mindset for Python code
+
+sql:
+  title: SQL fundamentals
+  bullets:
+    - SELECT, WHERE, JOIN
+    - GROUP BY + aggregations
+    - Window functions basics
+
+stats:
+  title: Statistics fundamentals
+  bullets:
+    - Mean, variance, standard deviation
+    - Common distributions (normal, binomial)
+    - Confidence intervals
+
+probability:
+  title: Probability fundamentals
+  bullets:
+    - Conditional probability and Bayes
+    - Independence and correlation
+    - Random variables
+
+math-for-ml:
+  title: Math for ML
+  bullets:
+    - Linear algebra basics
+    - Gradients and optimization
+    - Loss functions overview
+
+data-viz:
+  title: Data visualization
+  bullets:
+    - Choosing the right chart
+    - Avoiding misleading visuals
+    - Telling a data story
+
+system-design:
+  title: System design basics
+  bullets:
+    - Requirements and constraints
+    - High-level architecture
+    - Trade-offs and failure modes
+
+distributed-systems:
+  title: Distributed systems primer
+  bullets:
+    - CAP theorem
+    - Consistency vs availability
+    - Partition tolerance trade-offs
+
+mlops:
+  title: MLOps essentials
+  bullets:
+    - Training vs serving pipelines
+    - Model monitoring
+    - Feature stores + versioning
+
+llm-engineering:
+  title: LLM engineering overview
+  bullets:
+    - Prompting strategies
+    - RAG basics
+    - Safety + evaluation
+
+behavioral:
+  title: Behavioral STAR basics
+  bullets:
+    - Situation, Task, Action, Result
+    - Focus on impact
+    - Be concise and structured

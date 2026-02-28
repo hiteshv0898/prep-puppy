@@ -1,0 +1,8 @@
+data-engineer:
+  - "Full data engineering mock: SQL + pipeline design + behavioral"
+
+ai-engineer:
+  - "Full AI engineering mock: ML + deployment + behavioral"
+
+data-scientist:
+  - "Full data science mock: stats + SQL + behavioral"

@@ -15,7 +15,7 @@ Learning-first interview prep CLI for data/AI engineering roles.
 python -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
-python -m preppuppy.cli.app
+python -m preppuppy.cli.app --track data-engineer --mode learn --domain sql --level basic
 ```
 
 ## Modes

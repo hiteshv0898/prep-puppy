@@ -9,6 +9,8 @@ class StudyPlan:
     track: str
     mode: str
     domains: list[str]
+    domain: str
+    level: str
     lessons: list[str]
     drills: list[str]
     mocks: list[str]
@@ -26,6 +28,8 @@ def build_plan(config: PrepConfig) -> StudyPlan:
         track=config.track,
         mode=config.mode,
         domains=config.domains,
+        domain=config.domain,
+        level=config.level,
         lessons=lessons,
         drills=drills,
         mocks=mocks,
